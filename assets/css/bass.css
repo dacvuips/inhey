@@ -1,0 +1,95 @@
+:root {
+    --pink-color: #f36;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #d3d3d3;
+    --star-gold-star: #ffce3d;
+    --blue-color-round: #2590ed;
+    --blue-color: #2568ef;
+    --blue-color-round-dark: #0d30c3;
+    --text-color-blurred: #9f9f9f;
+    --violet-color: #994db1;
+    --violet-color-light: #c74970;
+    --orange-color: #ed7e4f;
+    --hover-btn: #48494b;
+    --fb-color: #4267b2;
+    --twitter-color: #4ab3f4;
+}
+
+span.blue-color {
+    background-color: var(--blue-color);
+}
+
+span.pink-color {
+    background-color: var(--pink-color);
+}
+
+span.blue-color-round-dark {
+    background-color: var(--blue-color-round-dark);
+}
+
+span.violet-color-light {
+    background-color: var(--violet-color-light);
+}
+
+span.orange-color {
+    background-color: var(--orange-color);
+}
+
+span.fb-color {
+    background-color: var(--fb-color);
+}
+
+span.twitter-color {
+    background-color: var(--twitter-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem */
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.grid {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-4 {
+    flex: 0 0 100%;
+    max-width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-3 {
+    flex: 0 0 100%;
+    max-width: 33.33333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: var(--pink-color);
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    display: inline-block;
+}
